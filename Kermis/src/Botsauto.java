@@ -1,7 +1,13 @@
 public class Botsauto extends Attractie {
 
-    String naam;
-    int prijs;
+    String baNaam = "botsauto";
+    double baPrijs = 2.50;
+    int baOppervlakte;
+    void setBotsauto(String naam, double prijs, int oppervlakte){
+        this.baNaam = naam;
+        this.baPrijs = prijs;
+        this.baOppervlakte = oppervlakte;
+    }
 
 
     int Start(){

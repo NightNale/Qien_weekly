@@ -6,5 +6,6 @@ public class Kermis {
         int b = a.Start();
        System.out.println(b);
 
+       System.out.println(a.spinPrijs);
     }
 }
