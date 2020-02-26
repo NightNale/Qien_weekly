@@ -25,7 +25,7 @@ public class Spin extends Attractie implements RisicoRijkeAttracties {
         opstellingsKeuring();
         kaartjes++;
         draaiHuidig++;
-        omzet = omzet + ticketPrijs;
+        omzetAttr = omzetAttr + ticketPrijs;
         Kassa.totaleOmzet = Kassa.totaleOmzet + ticketPrijs;
         Kassa.totaleKaartjes++;
     }

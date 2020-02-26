@@ -1,13 +1,12 @@
 package kermis;
 
 public class Kermis {
+
     public static void main(String[] args) {
 
         Berichten b = new Berichten();
 
-        for (int st = 0; st < 30; st++){
-            b.play();
-            }
+        b.play();
 
         Berichten.checkDrukte();
 

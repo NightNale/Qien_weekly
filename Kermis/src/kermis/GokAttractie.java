@@ -1,7 +1,10 @@
 package kermis;
 
-        public interface GokAttractie {
+public interface GokAttractie  {
 
-            void kansSpelBelastingBetalen();
 
+
+    default double kansSpelBelastingBetalen(double omzet, double vat) {
+        return omzet * vat;
+        }
 }

@@ -4,7 +4,7 @@ public  class Attractie {
 
 
 
-    protected double omzet = 0.0;
+    protected double omzetAttr = 0.0;
     protected int kaartjes = 0;
     int startpunt =0;
     protected double ticketPrijs;
@@ -19,7 +19,7 @@ public  class Attractie {
 
    public void draaien(){
         kaartjes++;
-        omzet = omzet + ticketPrijs;
+        omzetAttr = omzetAttr + ticketPrijs;
         Kassa.totaleOmzet = Kassa.totaleOmzet + ticketPrijs;
         Kassa.totaleKaartjes++;
     }
