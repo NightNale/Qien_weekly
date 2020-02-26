@@ -3,28 +3,17 @@ package kermis;
 public class Kermis {
     public static void main(String[] args) {
 
-        Botsauto botsA = new Botsauto();
-        Spin spinA = new Spin();
-        Spiegelpaleis spiegelA = new Spiegelpaleis();
-        Spookhuis spookA = new Spookhuis();
-        Hawaii hawaiiA = new Hawaii();
-        Ladderklimmen ladderA = new Ladderklimmen();
+        Berichten b = new Berichten();
 
-        botsA.draaien();
-        spinA.draaien();
-
-        System.out.println(Kassa.totaleOmzet);
-
-        spiegelA.draaien();
-        spookA.draaien();
-        hawaiiA.draaien();
-        ladderA.draaien();
-
-        System.out.println(Kassa.totaleOmzet);
-
+        for (int st = 0; st < 30; st++){
+            b.play();
+            }
 
         Berichten.checkDrukte();
 
+
+        System.out.println("De totale omzet van de kermis: "+ Kassa.totaleOmzet);
+        System.out.println("De totale kaartjes van de kermis: "+ Kassa.totaleKaartjes);
 
 
     }

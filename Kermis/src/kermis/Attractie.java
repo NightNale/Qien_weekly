@@ -3,9 +3,11 @@ package kermis;
 public  class Attractie {
 
 
-    public double omzet = 0.0;
-    public int kaartjes = 5;
-    private double ticketPrijs;
+
+    protected double omzet = 0.0;
+    protected int kaartjes = 0;
+    int startpunt =0;
+    protected double ticketPrijs;
     private String attractieNaam ="";
 
     public void setTicketPrijs(double attractiePrijs) {

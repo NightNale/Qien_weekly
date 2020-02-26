@@ -7,11 +7,7 @@ public class Botsauto extends Attractie {
         super.setAttractieNaam("botsauto");
     }
 
-    public double ticketPrijs = 2.50;
 
-    int start(){
-        return 1;
-    }
 
 
 }
