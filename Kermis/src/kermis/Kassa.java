@@ -2,10 +2,9 @@ package kermis;
 
 public class Kassa {
 
-    double totaleOmzet;
 
-
-    int totaleKaartjes;
+    static double totaleOmzet = 0.0;
+    static int totaleKaartjes = 0;
 
 
 

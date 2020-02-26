@@ -18,6 +18,8 @@ public  class Attractie {
    public void draaien(){
         kaartjes++;
         omzet = omzet + ticketPrijs;
+        Kassa.totaleOmzet = Kassa.totaleOmzet + ticketPrijs;
+        Kassa.totaleKaartjes++;
     }
 
 

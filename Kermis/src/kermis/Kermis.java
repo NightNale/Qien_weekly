@@ -12,11 +12,20 @@ public class Kermis {
 
         botsA.draaien();
         spinA.draaien();
+
+        System.out.println(Kassa.totaleOmzet);
+
         spiegelA.draaien();
         spookA.draaien();
         hawaiiA.draaien();
         ladderA.draaien();
 
-        System.out.println(botsA.omzet);
+        System.out.println(Kassa.totaleOmzet);
+
+
+        Berichten.checkDrukte();
+
+
+
     }
 }
